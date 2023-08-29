@@ -1,0 +1,46 @@
+.wrapper {
+  padding: 93px 0 91px;
+  background-color: #7070700d;
+}
+
+.orange {
+  color: #ff6600;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 50px;
+  margin-top: 57px;
+
+  .image_wrapper {
+    flex: 1 1 auto;
+
+    .image {
+      width: 100%;
+      height: fit-content;
+    }
+  }
+
+  .description_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 16px;
+
+    p {
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 1.8;
+    }
+  }
+}
+
+.rounded_banner {
+  margin-top: 41px;
+}

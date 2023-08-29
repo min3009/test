@@ -1,0 +1,121 @@
+.wrapper {
+  background-color: #7070700d;
+}
+
+.flex {
+  display: flex;
+}
+
+.figures_wrapper {
+  flex: 1 1 100%;
+  position: relative;
+  isolation: isolate;
+  margin-left: -30%;
+  // height: 950px;
+  // margin-top: 130px;
+
+  .figure {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .parksooho {
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    // right: 40%;
+  }
+
+  .parkjinho {
+    left: 0;
+    // right: 80%;
+    // transform: translateX(-50%);
+  }
+
+  .jangeunha {
+    right: 0;
+  }
+
+  .title {
+    position: absolute;
+    left: 50%;
+    z-index: 3;
+    transform: translateX(-50%);
+    bottom: 52px;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px solid #707070;
+    padding: 9px 22px 12px;
+    font-size: 21px;
+
+    strong {
+      font-weight: bold;
+      font-size: 24px;
+    }
+  }
+}
+
+.text_wrapper {
+  flex: 1 1 50%;
+
+  .h3 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 156px;
+    margin-bottom: 40px;
+  }
+
+  .orange {
+    color: #f5821f;
+  }
+
+  .bonsooho {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      left: -4px;
+      top: -4px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #f5821f;
+    }
+  }
+
+  .description {
+    margin: 35px 0 45px;
+    font-size: 21px;
+    line-height: 1.7;
+    text-align: center;
+  }
+
+  .hr {
+    background-color: #707070;
+  }
+
+  .list {
+    margin-top: 45px;
+    margin-bottom: 175px;
+
+    .item {
+      padding: 14px 20px 17px;
+      font-size: 24px;
+      background-color: #fff;
+
+      &:not(:last-of-type) {
+        margin-bottom: 20px;
+      }
+    }
+
+    .number {
+      color: #f5821f;
+    }
+
+    .divider {
+      margin: 0 10px;
+    }
+  }
+}

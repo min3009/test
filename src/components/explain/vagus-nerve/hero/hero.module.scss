@@ -1,0 +1,59 @@
+.wrapper {
+  background-image: url("../../../../../public/assets/vagus_nerve_hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 77px;
+  // height: 1080px;
+}
+
+.hero_intro_box {
+  display: flex;
+  align-items: center;
+  column-gap: 169px;
+
+  &_image {
+    max-width: 500px;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .percentage_box_wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 43px;
+
+    .percentage_box {
+      border: 1px solid #f5821f;
+      border-radius: 43px;
+      background-color: #fff;
+      padding: 52px 30px;
+      max-width: 355px;
+      text-align: center;
+    }
+
+    .h3 {
+      display: flex;
+      flex-direction: column;
+      color: #707070;
+      font-size: 36px;
+
+      strong {
+        font-size: 80px;
+        color: #000;
+      }
+    }
+
+    .hr {
+      background-color: #707070;
+      margin-top: 39px;
+      margin-bottom: 17px;
+    }
+
+    .description {
+      font-size: 24px;
+      line-height: 1.5;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.wrapper {
+  background-color: #7070700d;
+  padding: 71px 0 129px;
+}
+
+.orange {
+  color: #ff6600;
+}
+
+.image_wrapper {
+  margin-top: 72px;
+  display: flex;
+  align-items: center;
+  // flex-wrap: wrap;
+  gap: 20px 72px;
+
+  .image {
+    flex: 1;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .explain {
+    flex: 1;
+    font-size: 30px;
+    line-height: 1.4;
+    text-align: center;
+  }
+}
+
+.description {
+  margin-top: 67px;
+  font-size: 21px;
+  line-height: 1.5;
+  text-align: center;
+}

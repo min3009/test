@@ -1,0 +1,31 @@
+.main_bg {
+   background: url("../../../../../public/assets/temporalsec-bg.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+   margin-bottom: 67px;
+}
+
+.temporal_title {
+   padding-top: 130px;
+}
+
+.temporal_bone_img {
+   margin: 81px 0 0 0;
+   display: flex;
+   align-items: center;
+}
+
+.temporal_desc {
+   text-align: center;
+   font-size: 21px;
+   line-height: 36px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: -50px;
+}
+
+.temporal_desc p {
+   margin-bottom: 103px;
+}

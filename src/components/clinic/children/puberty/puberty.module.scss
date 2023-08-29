@@ -1,0 +1,31 @@
+.wrapper {
+  &.upper {
+    padding: 93px 0 89px;
+    background-color: #7070700d;
+  }
+
+  &.lower {
+    padding: 75px 0;
+  }
+}
+
+.orange {
+  color: #ff6600;
+}
+
+.sachoon_wrapper {
+  margin-top: 54px;
+
+  .check_list {
+    margin-top: 30px;
+  }
+}
+
+.check_list_image_wrapper {
+  margin-top: 60px;
+}
+
+.image {
+  width: 100%;
+  height: fit-content;
+}

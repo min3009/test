@@ -1,0 +1,39 @@
+.wrapper {
+  padding: 44px 0 84px;
+}
+
+.image_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .image {
+    max-width: 1034px;
+    width: 100%;
+    height: fit-content;
+  }
+}
+
+.h4 {
+  margin-top: 32px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.description {
+  margin-top: 47px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.74;
+
+  &_orange {
+    margin-top: 47px;
+    color: #ff6600;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+  }
+}

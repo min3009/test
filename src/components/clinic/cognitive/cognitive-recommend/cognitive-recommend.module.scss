@@ -1,0 +1,43 @@
+.main_title {
+  margin: 77px 0 57px 0;
+
+  strong {
+    color: #ff6600;
+  }
+}
+
+.flex_wrapper {
+  display: flex;
+  margin-bottom: 170px;
+
+  .main_img {
+    margin-right: 25px;
+  }
+}
+
+.desc_column_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content_desc {
+  border: 1px solid #707070;
+  border-radius: 40px;
+  width: 781px;
+  display: flex;
+
+  span {
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 16px;
+    padding-top: 20px;
+  }
+  .check {
+    margin: 15px;
+  }
+
+  .letter_space {
+    letter-spacing: -0.05em;
+  }
+}

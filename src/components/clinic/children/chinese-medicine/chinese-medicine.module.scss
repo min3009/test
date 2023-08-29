@@ -1,0 +1,38 @@
+.wrapper {
+  &.upper {
+    padding-top: 85px;
+  }
+
+  &.lower {
+    padding: 159px 0 70px;
+  }
+}
+
+.orange {
+  color: #ff6600;
+}
+
+.card_list_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px 61px;
+  justify-content: center;
+  margin-top: 80px;
+
+  .card {
+    flex: 1 1 100%;
+    max-width: 560px;
+  }
+
+  .image {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .banner {
+    margin-top: -73px;
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+  }
+}

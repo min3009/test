@@ -1,0 +1,102 @@
+.page {
+  margin-bottom: 123px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.doctor_info {
+  display: flex;
+}
+
+.content {
+  border: 1px solid;
+  margin-left: 21px;
+  padding: 41px 42px 0 41px;
+  width: 792px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.title > span {
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 35px 10px 35px;
+  margin-right: 13px;
+}
+
+.title > strong {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hr {
+  border: 1px solid #ff6600;
+}
+
+.doctor_history {
+  margin-top: 31px;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.doctor_history_ot {
+  margin-top: 31px;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.time_table {
+  margin: 0 auto;
+  margin-top: 30px;
+  table-layout: fixed;
+  width: 100%;
+  height: 360px;
+  overflow-x: auto;
+}
+.table_head {
+  background-color: #ff6600;
+  font-size: 30px;
+  color: white;
+}
+.table_head th {
+  border: 1px solid #000000;
+  padding: 10px 0 10px 0;
+}
+.table_body td {
+  font-size: 21px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  border: 1px solid;
+}
+
+.table_body td > span {
+  background-color: #707070;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.table_body .time {
+  background-color: #fff7d8;
+}
+
+.table_body .table_row {
+  color: #ff6600;
+  border: 1px solid #000000;
+}
+
+.table_body .noti {
+  padding: 0px 5px 0px 5px;
+}

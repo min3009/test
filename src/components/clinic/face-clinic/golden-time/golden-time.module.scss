@@ -1,0 +1,32 @@
+.wrapper {
+  padding: 85px 0 48px;
+  background-color: #7070700d;
+}
+
+.orange {
+  color: #ff6600;
+}
+
+.item {
+  margin-top: 51px;
+  width: 100%;
+}
+
+.call_out {
+  margin-top: 20px;
+}
+
+.description {
+  margin-top: 45px;
+  font-size: 21px;
+  line-height: 1.71;
+  text-align: center;
+}
+
+.image_wrapper {
+  margin-top: 48px;
+  .image {
+    width: 100%;
+    height: fit-content;
+  }
+}

@@ -1,0 +1,42 @@
+.wrapper {
+  background: url("../../../public/assets/last-bon-soo-ho.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 152px 0 140px;
+}
+
+.message_wrapper {
+  max-width: 1152px;
+  margin-left: 132px;
+  color: #ffffff;
+  background-color: #0000004D;
+  padding: 89px 76px 79px 76px;
+
+  .h3 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .divider {
+    margin-top: 50px;
+    height: 2px;
+    background-color: #fff;
+  }
+  
+  .questions {
+    margin-top: 43px;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .description {
+    max-width: 822px;
+    margin-top: 64px;
+    font-size: 24px;
+    line-height: 1.875;
+  }
+}

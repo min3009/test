@@ -1,0 +1,68 @@
+.wrapper {
+  padding: 93px 0 121px;
+  background-color: #7070700d;
+}
+
+.orange {
+  color: #ff6600;
+}
+
+.list_wrapper {
+  margin-top: 105px;
+}
+
+.card {
+  display: flex;
+  background-color: #fff;
+
+  &:not(:first-of-type) {
+    margin-top: 30px;
+  }
+
+  .card_text_box {
+    flex: 1;
+    padding: 21px 12px 12px 73px;
+  }
+
+  .title_wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 13px 0;
+    border-bottom: 1px solid #707070;
+
+    .banner {
+      font-size: 30px;
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+
+    h4 {
+      font-size: 30px;
+      font-weight: bold;
+      margin-left: 17px;
+      line-height: 1.8;
+    }
+  }
+
+  .description_wrapper {
+    margin-top: 30px;
+    padding: 8px;
+
+    p {
+      font-size: 27px;
+      line-height: 1.55;
+    }
+  }
+}
+
+.report_card {
+  margin-top: 69px;
+}
+
+.callout {
+  margin-top: 69px;
+  font-size: 30px;
+  line-height: 1.8;
+  color: #707070;
+}

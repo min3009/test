@@ -1,0 +1,22 @@
+.main_bg {
+  background-image: url("../../../../../public/assets/dementia-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 33px 0 60px;
+  margin-bottom: 77px;
+}
+
+.main_title {
+  strong {
+    color: #ff6600;
+  }
+
+  .title_desc {
+    font-size: 21px;
+    line-height: 36px;
+    text-align: center;
+    margin: 39px 0 30px;
+    letter-spacing: -0.02em;
+  }
+}

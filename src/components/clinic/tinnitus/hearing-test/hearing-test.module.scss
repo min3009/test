@@ -1,0 +1,77 @@
+.wrapper {
+  background-image: url("../../../../../public/assets/tinnitus_testing_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0 106px;
+}
+
+.orange {
+  color: #ff6600;
+}
+
+.versus_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 82px;
+
+  .circle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+    background-color: #fff;
+
+    &_left {
+      color: #a1a1a1;
+    }
+
+    .strong {
+      margin-top: 167px;
+      font-weight: bold;
+      font-size: 45px;
+      line-height: 1.2;
+      text-align: center;
+    }
+
+    .bottom_text {
+      margin-bottom: 128px;
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 1.4;
+    }
+  }
+
+  .versus {
+    display: flex;
+    justify-content: center;
+    padding-top: 56px;
+    width: 172px;
+    height: 172px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0 -50px;
+    z-index: 1;
+    position: relative;
+  }
+}
+
+.description {
+  margin-top: 41px;
+  font-size: 24px;
+  line-height: 1.75;
+  text-align: center;
+
+  strong {
+    font-weight: bold;
+  }
+}

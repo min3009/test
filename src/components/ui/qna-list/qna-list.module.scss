@@ -1,0 +1,41 @@
+.qa_list {
+  .banner_wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 76px;
+
+    .banner {
+      padding-left: 35px;
+      padding-right: 35px;
+      font-size: 30px;
+    }
+
+    .text {
+      margin-left: 21px;
+      font-size: 30px;
+      font-weight: bold;
+      color: #ff6600;
+    }
+  }
+
+  .graph_wrapper {
+    margin-top: 29px;
+
+    .graph_description {
+      font-size: 27px;
+      font-weight: bold;
+    }
+    .image {
+      width: 100%;
+      height: fit-content;
+    }
+  }
+
+  .desc_wrapper {
+    margin-top: 29px;
+    .desc {
+      font-size: 24px;
+      line-height: 1.5;
+    }
+  }
+}

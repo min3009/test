@@ -1,0 +1,40 @@
+.page_wrapper {
+  background-color: #7070700d;
+  padding: 91px 0 81px 0;
+  margin-bottom: 81px;
+}
+
+.main_title {
+  strong {
+    color: #ff6600;
+  }
+
+  .title_desc {
+    font-size: 21px;
+    line-height: 36px;
+    text-align: center;
+    margin: 69px 0 75px 0;
+    letter-spacing: -0.01em;
+  }
+}
+
+.flex_wrapper {
+  display: flex;
+
+  .content_desc {
+    width: 580px;
+    text-align: center;
+    margin-right: 40px;
+
+    span {
+      margin: auto;
+    }
+
+    .p_box {
+      font-size: 24px;
+      line-height: 36px;
+      border: 1px solid #ff6600;
+      padding: 30px 98px 34px;
+    }
+  }
+}

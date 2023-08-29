@@ -1,0 +1,35 @@
+.wrapper {
+  background-image: url("../../../../../public/assets/tinnitus_bg_hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.max_wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero_text_wrapper {
+  padding: 344px 0 374px;
+  width: 100%;
+  max-width: 569px;
+
+  .h1 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .banner {
+    margin-top: 49px;
+  }
+
+  .description {
+    margin-top: 54px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.8;
+  }
+}

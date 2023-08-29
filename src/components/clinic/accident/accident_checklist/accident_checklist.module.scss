@@ -1,0 +1,52 @@
+.des {
+  font-size: 30px;
+  margin-bottom: 35px;
+  color: #707070;
+  text-align: center;
+  margin-top: 185px;
+}
+.title {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 75px;
+}
+.point {
+  color: #ff6600;
+}
+.checklist_wrap {
+  border: 1px solid #707070;
+  margin-bottom: 72px;
+  .checklist {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    .list {
+      margin-top: 48px;
+      display: flex;
+      flex-direction: column;
+      .option {
+        display: flex;
+        margin-bottom: 33px;
+        margin-left: 55px;
+        align-items: center;
+        .check_text {
+          font-size: 24px;
+          margin-left: 5px;
+        }
+      }
+    }
+    .check_image {
+      margin-top: 110px;
+      margin-right: 79px;
+    }
+  }
+  .bottom_text {
+    background-color: #ff6600;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    padding: 24px 0;
+  }
+}

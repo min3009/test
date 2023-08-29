@@ -1,0 +1,51 @@
+.wrapper {
+  padding: 62px 0 92px;
+}
+
+.page_title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.swiper_wrapper {
+  margin-top: 67px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #707070;
+
+  .image {
+    width: 100%;
+    height: fit-content;
+    padding: 4px;
+  }
+}
+
+.text_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 16px 24px;
+
+  .title {
+    color: #f5821f;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .description {
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.2;
+  }
+}

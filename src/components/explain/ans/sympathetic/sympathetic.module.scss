@@ -1,0 +1,48 @@
+.wrapper {
+  padding: 67px 0 91px;
+}
+
+.box {
+  margin-top: 72px;
+
+  .title {
+    border-left: 2px solid #fff;
+    margin-left: 15px;
+    padding-left: 15px;
+  }
+
+  .description {
+    margin-top: 58px;
+    line-height: 1.7;
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .rounded_title_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  .rounded_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 16px 15px;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid #ff6600;
+    border-radius: 30px;
+    max-width: 635px;
+    width: 100%;
+  }
+}
+
+.image_wrapper {
+  margin-top: 23px;
+
+  .image {
+    width: 100%;
+  }
+}

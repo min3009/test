@@ -1,9 +1,19 @@
-import styles from "./page.module.scss";
+import Hero from "@/components/home/hero/hero";
+import Cst from "@/components/home/cst/cst";
+import Solution from "@/components/home/solution/solution";
+import Doctors from "@/components/home/doctors/doctors";
+import Youtube from "@/components/home/youtube/youtube";
+import Therapy from "@/components/home/therapy/therapy";
 
 export default function Home() {
   return (
     <main>
-      <h1 className={styles.h1}>main page</h1>
+      <Hero />
+      <Cst />
+      <Solution />
+      <Doctors />
+      <Youtube />
+      <Therapy />
     </main>
   );
 }

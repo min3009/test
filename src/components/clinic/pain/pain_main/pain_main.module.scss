@@ -1,0 +1,119 @@
+.background {
+  background-image: url("/assets/pain_1.png");
+  background-repeat: no-repeat;
+}
+.des {
+  font-size: 30px;
+  margin-bottom: 35px;
+  color: #707070;
+}
+.title {
+  font-size: 45px;
+  font-weight: bold;
+}
+.point {
+  color: #ff6600;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  .sub_title {
+    width: 631px;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 54px;
+    text-align: center;
+    margin-top: 339.5px;
+    margin-bottom: 49px;
+  }
+  .main_title {
+    width: 569px;
+    color: white;
+    background-color: #ff6600;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding-top: 6px;
+    padding-bottom: 11px;
+    margin-bottom: 54px;
+  }
+  .main_text {
+    width: 569px;
+    font-size: 30px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 374px;
+  }
+}
+.section2 {
+  margin-top: 41px;
+  margin-bottom: 55px;
+}
+.sec2_detail {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sec2_text {
+  font-size: 30px;
+  font-weight: bold;
+  border: 5px solid #ff6600;
+  width: 100%;
+  text-align: center;
+  padding: 17px 0 27px;
+  margin-bottom: 45px;
+}
+.sec2_explain {
+  font-size: 21px;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 130px;
+}
+.gray_back {
+  background-color: rgba(#707070, 0.05);
+}
+.section3 {
+  padding-top: 93px;
+  margin-bottom: 57px;
+  text-align: center;
+}
+.sec3_detail {
+  display: flex;
+  justify-content: space-between;
+  .sec3_items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    .sec3_item {
+      display: flex;
+      align-items: center;
+      width: 550px;
+      background-color: white;
+      border-radius: 40px;
+      margin-bottom: 25px;
+      .sec3_i_image {
+        margin: 14px 0 16px 17px;
+      }
+      .sec3_i_text {
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 28px;
+      }
+    }
+  }
+}
+.sec3_bottom {
+  padding-bottom: 91px;
+}
+.sec3_b_text {
+  width: 100%;
+  background-color: #ff6600;
+  border-radius: 40px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 17px 0 27px;
+}

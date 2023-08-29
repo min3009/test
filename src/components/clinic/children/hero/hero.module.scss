@@ -1,0 +1,32 @@
+.wrapper {
+  background-image: url("../../../../../public/assets/clinic_children_hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 344px 0 374px;
+}
+
+.hero_title_wrapper {
+  max-width: 570px;
+  width: 100%;
+  margin-left: auto;
+
+  h1 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .banner {
+    margin-top: 49px;
+    padding: 2px 15px 6px;
+  }
+
+  p {
+    margin-top: 54px;
+    font-size: 30px;
+    line-height: 1.8;
+    text-align: center;
+  }
+}

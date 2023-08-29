@@ -1,0 +1,55 @@
+.main_img {
+   margin-bottom: 77px;
+}
+
+
+.skull_title {
+
+   strong {
+      color: #FF6600;
+   }
+}
+
+.banner {
+   margin: 77px 0 53px;
+   
+   span {
+      margin: auto;
+   }
+}
+
+.skull_desc {
+   font-size: 21px;
+   line-height: 36px;
+   text-align: center;
+}
+
+.main_bg {
+   background-image: url("../../../../../public/assets/skull.png");
+   background-color: #7070700d;
+   // background-position: right;
+   background-position: right;
+   background-position-y: 146px;
+   background-repeat: no-repeat;
+   padding: 91px 0 88px;
+
+   .skull_group_img {
+      text-align: center;
+      margin-bottom: 66px;
+   }
+
+   .more_view {
+      border: 5px solid #FF6600;
+      border-radius: 40px;
+      width: 498px;
+      text-align: center;
+      margin: auto;
+      
+      span {
+         color: #FF6600;
+         font-size: 30px;      
+         font-weight: bold;
+         line-height: 54px;
+      }
+   }
+}

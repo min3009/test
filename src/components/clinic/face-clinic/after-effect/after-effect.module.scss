@@ -1,0 +1,39 @@
+.wrapper {
+  padding: 68px 0 114px;
+  background-color: #7070700d;
+}
+
+.orange {
+  color: #ff6600;
+}
+
+.card_list {
+  margin-top: 97px;
+
+  .card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #707070;
+    background-color: #fff;
+    padding: 10px;
+
+    &:not(:first-of-type) {
+      margin-top: 40px;
+    }
+
+    .text_wrapper {
+      margin-left: 36px;
+      h4 {
+        color: #f5821f;
+        font-size: 36px;
+        font-weight: bold;
+      }
+
+      p {
+        margin-top: 19px;
+        font-size: 24px;
+        line-height: 1.5;
+      }
+    }
+  }
+}

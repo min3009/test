@@ -1,0 +1,32 @@
+.wrapper {
+  &.upper {
+    background-color: #7070700d;
+    padding: 93px 0 118px;
+  }
+
+  &.lower {
+    padding: 91px 0 181px;
+  }
+}
+
+.orange {
+  color: #ff6600;
+}
+
+.clinic_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 57px;
+  margin-bottom: 41px;
+}
+
+.lower {
+  padding: 91px 0 181px;
+
+  .image {
+    width: 100%;
+    height: fit-content;
+  }
+}

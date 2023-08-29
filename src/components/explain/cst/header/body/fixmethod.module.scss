@@ -1,0 +1,39 @@
+.mcontent_header {
+   text-align: center;
+   line-height: 54px;
+}
+
+.mcontent_header span {
+   font-size: 30px;
+   color: #707070;
+}
+
+.mcontent_header h2 {
+   font-size: 45px;
+   font-weight: bold;
+   margin: 20px 0 55px 0;
+}
+
+.mcontent_img {
+   background-color: white;
+}
+
+.button_area {
+   display: flex;
+   margin: -39px 0 21px 0;
+}
+
+// .button_area .fir_btn {
+//    // background-color: #F5821F;
+// }
+
+.button_area button {
+   width: 100%;
+   font-size: 30px;
+   line-height: 54px;
+   border: 1px solid #F5821F;
+}
+
+.button_area button:hover {
+   background-color: #F5821F;
+}

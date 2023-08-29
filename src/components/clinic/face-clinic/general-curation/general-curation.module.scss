@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 41px 0 137px;
+}
+
+.image_wrapper {
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px 168px;
+}
+
+.warning {
+  border: 5px solid #ff6600;
+  font-size: 30px;
+  line-height: 1.8;
+  text-align: center;
+  padding: 17px 16px 27px;
+}
+
+.description {
+  margin-top: 45px;
+  font-size: 21px;
+  line-height: 1.7;
+  text-align: center;
+}

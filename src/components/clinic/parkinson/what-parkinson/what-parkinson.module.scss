@@ -1,0 +1,71 @@
+.color_font {
+   color: #FF6600;
+}
+
+.main_title {
+
+   .title_desc {
+      font-size: 21px;
+      line-height: 36px;
+      text-align: center;
+      margin: 63px 0 63px 0;
+   }
+}
+
+.sub_parkinson {
+
+   .parkinson_step_img {
+      margin: 52px 0 48px 0;
+   }
+   
+   .sub_parkinson_desc {
+      font-size: 21px;
+      line-height: 36px;
+      text-align: center;
+      margin-bottom: 103px;
+   }
+
+   .circles {
+      display: flex;
+      align-items: center;
+      margin: 52px 0 72px;
+      .big_circle {
+        border: 5px solid #FF6600;
+        position: relative;
+        width: 210px;
+        height: 210px;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .small_circle {
+          position: absolute;
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          border: 1px solid #707070;
+          left: 180px;
+          top: 65px;
+          z-index: 999;
+          background-color: white;
+          .tri_i {
+            margin-top: 25px;
+            margin-left: 31px;
+          }
+        }
+        .inner_t {
+          font-size: 24px;
+          font-weight: bold;
+          text-align: center;
+          line-height: 36px;
+        }
+      }
+    }
+}
+
+
+
+
+
+

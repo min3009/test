@@ -1,0 +1,97 @@
+.wrapper {
+  padding-bottom: 100px;
+}
+
+.inner_wrapper {
+  background-image: url("../../../../../public/assets/dysfunction_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1461px;
+  padding-top: 71px;
+}
+
+.circle_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 55px;
+
+  .autonomic_nerve {
+    margin-left: 93px;
+  }
+
+  .h3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .strong {
+    margin-top: 19px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .hr {
+    margin-top: 18px;
+    width: 100%;
+    max-width: 268px;
+    height: 2px;
+
+    &.somatic {
+      background-color: #ff6600;
+    }
+    &.autonomic {
+      background-color: #fff7d8;
+    }
+  }
+
+  .description {
+    margin-top: 16px;
+    line-height: 1.5;
+  }
+}
+
+.see_saw_wrapper {
+  margin-top: -535px;
+
+  .see_saw {
+    background-color: #fff;
+    border: 1px solid #000;
+
+    &.second {
+      margin-top: 40px;
+    }
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+
+    h4 {
+      max-width: 400px;
+      width: 100%;
+      background-color: #000;
+      color: #fff;
+      line-height: 1.8;
+      font-size: 30px;
+      font-weight: bold;
+      padding: 10px 0 14px;
+      text-align: center;
+    }
+
+    p {
+      margin-left: 18px;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 1.5;
+    }
+  }
+
+  .image {
+    width: 100%;
+  }
+}
