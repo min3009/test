@@ -1,8 +1,9 @@
 import Wrapper from "@/components/ui/wrapper/wrapper";
-import s, { sub_title } from "./clinic_cst.module.scss";
+import s from "./clinic_cst.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import { HTMLAttributes } from "react";
+import sub_title from "*.module.scss"
 
 export default function Clinic_cst(props: HTMLAttributes<HTMLElement>) {
   const { className } = props;
